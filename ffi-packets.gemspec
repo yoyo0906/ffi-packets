@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ffi-packets}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Eric Monti"]
@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
      "lib/ffi/packets.rb",
      "lib/ffi/packets/arcnet.rb",
      "lib/ffi/packets/arp.rb",
+     "lib/ffi/packets/auto_struct.rb",
      "lib/ffi/packets/constants.rb",
      "lib/ffi/packets/eth.rb",
      "lib/ffi/packets/fddi.rb",
