@@ -35,6 +35,7 @@ Gem::Specification.new do |s|
      "lib/ffi/packets/ip.rb",
      "lib/ffi/packets/llc.rb",
      "lib/ffi/packets/mac_addr.rb",
+     "lib/ffi/packets/sll.rb",
      "lib/ffi/packets/tcp.rb",
      "lib/ffi/packets/token_ring.rb",
      "lib/ffi/packets/udp.rb",
